@@ -1,14 +1,88 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+#root {
+    background-image: url("https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+  .title {
+    text-shadow: 3px 4px 2px rgba(40, 40, 40, 0.95);
+    font-weight: 600;
+  }
+    
+  .letter{
+    font-size: 4em;
+  }
+  
+  .drum-pad {
+    margin: 20px;
+    flex: 0 1 auto;
+    width: 25%;
+  }
+
+  .keyRow {
+    width: 500px;
+    flex-flow: column wrap; 
+    justify-content: center;
+  }
+
+  .display {
+    display: block;
+    overflow: hidden;
+    line-height: 2.3em;
+    min-height: 100px;
+    background-color: #424242;
+    border: 3px #7e7e7e solid;
+    -moz-box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .8), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .8), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .8), inset -2px -2px 2px rgba(0, 0, 0, .4);
+  }
+  
+  h3 {
+    text-transform: uppercase;
+  }
+  
+  .border {
+    border: 3px solid;
+    -moz-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+  }
+
+  .border:active {
+    -moz-box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .8), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .8), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .8), inset -2px -2px 2px rgba(0, 0, 0, .4);
+  }
+  
+  @media (max-width: 768px) {
+    
+    h3.display {
+      font-size: 38px;
+    }
+    
+    h1.letter {
+      font-size: 36px;
+    }
+
+    .title {
+      font-size: 3em;
+      padding: 0 6%;
+      margin-bottom: 0;
+    }
+
+    .display {
+      width: 100%;
+    }
+
+    .keyRow {
+      width: 425px;
+      justify-content: space-evenly;
+    }
+
+    .drum-pad {
+      width: 22%;
+    }
+    
+  }
