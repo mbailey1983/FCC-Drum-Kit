@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FCC-Drum-Kit/static/css/main.d3e3cfc7.chunk.css",
+    "main.js": "/FCC-Drum-Kit/static/js/main.cfaa16ca.chunk.js",
+    "main.js.map": "/FCC-Drum-Kit/static/js/main.cfaa16ca.chunk.js.map",
+    "runtime~main.js": "/FCC-Drum-Kit/static/js/runtime~main.0f59ab40.js",
+    "runtime~main.js.map": "/FCC-Drum-Kit/static/js/runtime~main.0f59ab40.js.map",
+    "static/js/2.98dcc9dd.chunk.js": "/FCC-Drum-Kit/static/js/2.98dcc9dd.chunk.js",
+    "static/js/2.98dcc9dd.chunk.js.map": "/FCC-Drum-Kit/static/js/2.98dcc9dd.chunk.js.map",
+    "index.html": "/FCC-Drum-Kit/index.html",
+    "precache-manifest.e3e26b0ecb206b92a7348cd9a65da699.js": "/FCC-Drum-Kit/precache-manifest.e3e26b0ecb206b92a7348cd9a65da699.js",
+    "service-worker.js": "/FCC-Drum-Kit/service-worker.js",
+    "static/css/main.d3e3cfc7.chunk.css.map": "/FCC-Drum-Kit/static/css/main.d3e3cfc7.chunk.css.map"
+  }
+}
