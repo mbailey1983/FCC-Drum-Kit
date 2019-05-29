@@ -1,68 +1,42 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Drum Kit for FreeCodeCamp's certification projects
+>This project was created to satisfy FreeCodeCamp's Javascript Libraries certification. It's a drum kit that is both keyboard and touch responsive, playing 9 different drum sounds when the keys are pressed.
+<hr />
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+* [Dependencies](#depend)
+* [About The Project](#about)
+* [Support](#support)
+* [License](#license)
 
-### `npm start`
+<hr>
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img width="350" src="https://rawcdn.githack.com/rockstarcreativestudio/FCC-Drum-Kit/e5e3eaa30f2528ddc5edfe5dfa9c29f10d53efe5/src/drum-kit-ss.png?raw=true" />
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+# <a name="depend"></a>Dependencies
 
-### `npm test`
+* Create React App
+* GH-Pages
+* Bootstrap
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<hr>
 
-### `npm run build`
+# <a name="about"></a> About the Project
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project was created to satisfy FreeCodeCamp's Javascript Libraries test project. It required me to use one or more of the front-end libraries taught through this section of the course. While they use Codepen as the final output of the project for testing, I generally start with Create React App on my localhost to complete the coding part, keeping all the code in the index.js. This allows me to test and work with the code in a stable environment. When I'm ready, I transfer the code to a Codepen pen for testing and completion of the project. It also allows me to push the project to a Github repo. 
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+I personally use Materialize more since practicing with it, but opted for Bootstrap for this project to allow for more elements. I used a map function for the number buttons, and then coded the other buttons individually. I admit, the toughest parts were preventing multiple decimals within a number while allowing decimals in the second or third number input. Granted, I haven't had a lot of sleep while working on this, so that could also factor in to why I was not seeing the simple answer - checking the input for decimals, not the full equation. State is wonderful considering how simple the answer was. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I am using eval since outside math libraries weren't recommended but I may add this later when I get time to increase security.
 
-### `npm run eject`
+## [Check out the live project.](https://rockstarcreativestudio.github.io/FCC-React-Calculator/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<hr>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# <a name="support"></a>Support
+Notice an issue with this app? [Leave a ticket here](https://github.com/rockstarcreativestudio/FCC-React-Calculator/issues)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<hr>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# <a name="license"></a>License
+* [MIT License](http://opensource.org/licenses/mit-license.php)
