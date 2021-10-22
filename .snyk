@@ -1,0 +1,46 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - gh-pages > async > lodash:
+        patched: '2021-10-22T21:19:40.564Z'
+    - react-scripts > @babel/core > lodash:
+        patched: '2021-10-22T21:19:40.564Z'
+    - react-scripts > eslint > lodash:
+        patched: '2021-10-22T21:19:40.564Z'
+    - react-scripts > eslint-plugin-flowtype > lodash:
+        patched: '2021-10-22T21:19:40.564Z'
+    - react-scripts > eslint-plugin-import > lodash:
+        patched: '2021-10-22T21:19:40.564Z'
+    - react-scripts > html-webpack-plugin > lodash:
+        patched: '2021-10-22T21:19:40.564Z'
+    - react-scripts > webpack-manifest-plugin > lodash:
+        patched: '2021-10-22T21:19:40.564Z'
+    - react-scripts > @babel/core > @babel/traverse > lodash:
+        patched: '2021-10-22T21:19:40.564Z'
+    - react-scripts > eslint > inquirer > lodash:
+        patched: '2021-10-22T21:19:40.564Z'
+    - react-scripts > eslint > table > lodash:
+        patched: '2021-10-22T21:19:40.564Z'
+    - react-scripts > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2021-10-22T21:19:40.564Z'
+    - react-scripts > react-dev-utils > inquirer > lodash:
+        patched: '2021-10-22T21:19:40.564Z'
+    - react-scripts > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2021-10-22T21:19:40.564Z'
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2021-10-22T21:19:40.564Z'
+    - react-scripts > babel-preset-react-app > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2021-10-22T21:19:40.564Z'
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash:
+        patched: '2021-10-22T21:19:40.564Z'
+    - react-scripts > jest-environment-jsdom-fourteen > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2021-10-22T21:19:40.564Z'
+    - react-scripts > babel-preset-react-app > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2021-10-22T21:19:40.564Z'
+    - react-scripts > jest > jest-cli > @jest/core > @jest/reporters > istanbul-api > async > lodash:
+        patched: '2021-10-22T21:19:40.564Z'
+    - react-scripts > babel-preset-react-app > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-10-22T21:19:40.564Z'
